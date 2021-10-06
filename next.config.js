@@ -43,4 +43,7 @@ module.exports = withOptimizedImages({
 
   /* config for general next.js */
   exportPathMap: getPathExportMap,
+  images: {
+    disableStaticImages: true,
+  },
 })
