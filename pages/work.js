@@ -7,6 +7,11 @@ const Work = () => (
 
     <ul>
       <ListLink
+        h2="Service Canada Labs"
+        subheading="User testing for future Canada.ca services"
+        href="/work-esdc-service-canada-labs"
+      />
+      <ListLink
         h2="canada-vaccine-tracker.ca"
         subheading="Graphing vaccines over time"
         href="/work-canada-vaccine-tracker"

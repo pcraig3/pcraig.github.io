@@ -12,6 +12,7 @@ const paths = [
   '/lists-things-i-like',
   '/lists-things-i-dont-like',
   '/work',
+  '/work-esdc-service-canada-labs',
   '/work-canada-vaccine-tracker',
   '/work-canada-holidays',
   '/work-cds-claim-tax-benefits',
