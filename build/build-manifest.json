@@ -1,0 +1,224 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/ugOlQDS1tCppa4a9ZRzb-/_buildManifest.js",
+    "static/ugOlQDS1tCppa4a9ZRzb-/_ssgManifest.js",
+    "static/ugOlQDS1tCppa4a9ZRzb-/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/index-a600e53b4a48007e.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/404-1065e9a1e06d2560.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/pages/_app-5c71bccb141bc901.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/pages/_error-2f883067a14f4c4a.js"
+    ],
+    "/about": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/about-a004e063b2a23f4c.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/contact-ec638e4a5b50ebf6.js"
+    ],
+    "/cv": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/cv-313d656a926da84c.js"
+    ],
+    "/lists": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/lists-b735a283c1fb9b46.js"
+    ],
+    "/lists-places-ive-lived": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/lists-places-ive-lived-0ba87b4ada1f8331.js"
+    ],
+    "/lists-things-i-dont-like": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/lists-things-i-dont-like-c8dd479ef912c0ed.js"
+    ],
+    "/lists-things-i-like": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/lists-things-i-like-6416cc34b7d82968.js"
+    ],
+    "/typography": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/typography-6db82bee3452d015.js"
+    ],
+    "/work": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/pages/work-31b6905ad5623e74.js"
+    ],
+    "/work-canada-holidays": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-canada-holidays-397d893ad52017e6.js"
+    ],
+    "/work-canada-vaccine-tracker": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-canada-vaccine-tracker-b81bf7e902a8bb06.js"
+    ],
+    "/work-cds-claim-tax-benefits": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-cds-claim-tax-benefits-3b3ddf6ca211724c.js"
+    ],
+    "/work-cds-covid-alert-portal": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-cds-covid-alert-portal-cbd5008f380f8272.js"
+    ],
+    "/work-cds-rescheduler": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-cds-rescheduler-fb58d68bf359c8b0.js"
+    ],
+    "/work-esdc-service-canada-labs": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-esdc-service-canada-labs-57eabcdf6ea82396.js"
+    ],
+    "/work-govuk-digital-marketplace": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-govuk-digital-marketplace-211c571658375945.js"
+    ],
+    "/work-govuk-performance-platform": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-govuk-performance-platform-660c87669e1c14a0.js"
+    ],
+    "/work-involvement-compass": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-involvement-compass-73e9f9086cd976e1.js"
+    ],
+    "/work-pcraig3ca-deprecated": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-pcraig3ca-deprecated-9268711f53948c58.js"
+    ],
+    "/work-westernuscca": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-westernuscca-88c7d5955860b838.js"
+    ],
+    "/work-westernuscca-event-calendar": [
+      "static/chunks/webpack-571ac940900727ba.js",
+      "static/chunks/framework-91d7f78b5b4003c8.js",
+      "static/chunks/main-96060e10e65c9c86.js",
+      "static/chunks/206-e5078bff81a61392.js",
+      "static/chunks/851-9f5c373eb9ae8417.js",
+      "static/chunks/48-66b23c97b44b2b50.js",
+      "static/chunks/pages/work-westernuscca-event-calendar-d2474846e490429c.js"
+    ]
+  },
+  "ampFirstPages": []
+}
