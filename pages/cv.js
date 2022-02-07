@@ -11,33 +11,16 @@ const CV = () => (
     <h2>work</h2>
 
     <p>
-      <strong>Senior Technical Advisor</strong>
-      <br />
-      Employment and Social Development Canada — Ottawa
-      <br />
-      2021 <span aria-label="to">→</span> now
-    </p>
-    <ul>
-      <li>Head of software development for all in-house agile development teams</li>
-      <li>Defines products, and assigns developers to teams, and oversees technical work</li>
-      <li>Picks tech stacks to solve problems we have, not problems we don’t</li>
-      <li>Plans, organizes, and reviews dev work</li>
-      <li>Collaborates across departmental silos and disciplines to keep moving forward</li>
-      <li>Presents work and explains decisions to stakeholders</li>
-    </ul>
-    <br />
-
-    <p>
       <strong>Tech Lead</strong>
       <br />
       Canadian Digital Service — Ottawa
       <br />
-      2018 <span aria-label="to">→</span> 2021
+      2018 <span aria-label="to">→</span> now
     </p>
     <ul>
       <li>Technical lead on agile development teams building user-centric digital services</li>
       <li>Organizes, implements, and reviews dev work</li>
-      <li>Scopes out organisational barriers during project discoveries and proposes solutions</li>
+      <li>Identifies organisational barriers (and workarounds) in project discoveries</li>
       <li>
         Codes lots of ES6 (JS), Python <span aria-hidden="true">🐍</span>, React, CSS, HTML, and
         sometimes Java
@@ -47,6 +30,23 @@ const CV = () => (
         <abbr title="Continuous deployment">CD</abbr> pipelines and cloud infrastructure
       </li>
       <li>Also I am an export in building accessible interfaces</li>
+    </ul>
+    <br />
+
+    <p>
+      <strong>Senior Technical Advisor</strong>
+      <br />
+      Employment and Social Development Canada — Ottawa
+      <br />
+      2021 (Feb <span aria-label="to">→</span> Aug)
+    </p>
+    <ul>
+      <li>Head of software development for all in-house agile development teams</li>
+      <li>Defined products, assigned developers to teams, and oversaw technical work</li>
+      <li>Picked tech stacks to solve problems we had, not problems we didn’t</li>
+      <li>Planned and reviewed dev work, upskilled junior developers</li>
+      <li>Collaborated across disciplines and silos to keep moving forward</li>
+      <li>Presented work and explained decisions to stakeholders</li>
     </ul>
     <br />
 
@@ -125,14 +125,15 @@ const CV = () => (
 
     <h2>misc.</h2>
     <p>
-      I mean, I like big text designs, writing think pieces <span aria-hidden="true">🤔</span>, and my yellow Nintendo Switch Lite. I don’t
-      want to come off as brash or anything, but I can probably beat u in{' '}
-      <a href="https://www.nintendo.com/games/detail/wargroove-switch/" target="_blank">
-        Wargroove
+      I mean, I like big text designs, writing think pieces <span aria-hidden="true">🤔</span>, and
+      my yellow Nintendo Switch Lite. I don’t want to come off as brash or anything, but I can
+      probably have a higher score than u in{' '}
+      <a href="https://www.nintendo.com/games/detail/enter-the-gungeon-switch/" target="_blank">
+        Enter the Gungeon
       </a>
       .
     </p>
-    <p>I also enjoy books but who doesn’t?</p>
+    <p>I also enjoy books (but who doesn’t?)</p>
   </Layout>
 )
 

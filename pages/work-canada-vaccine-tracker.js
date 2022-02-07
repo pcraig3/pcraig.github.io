@@ -8,16 +8,14 @@ const WorkCVT = () => (
     title="canada-vaccine-tracker.ca — paul craig"
     imgSrc={require('../img/vacs.png')}
     imgAlt="Screenshot of canada-vaccine-tracker.ca"
-    linkText="Percentage of Canadians who have received vaccines"
-    href="https://canada-vaccine-tracker.ca"
   >
     <p>
       In January 2021, I designed, built, and shipped{' '}
       <a href="https://canada-vaccine-tracker.ca" target="_blank">
         canada-vaccine-tracker.ca
       </a>
-      , an auto-updating progress tracker that gives you the headline figure and then gets out of
-      the way.
+      , an auto-updating progress tracker that gave you the headline figure and then got out of the
+      way.
     </p>
     <p>
       During January’s provincial lockdown, vaccines were a hot news item but still scarce in
@@ -59,9 +57,9 @@ const WorkCVT = () => (
       for a few weeks (although arguably it’s a dialect).
     </p>
     <p>
-      The good outcome here was building an app that works pretty well and shipping it in under a
-      week. Sometimes government technology groups want to spend 12 months deciding that 10-year old
-      tech is too cutting-edge to use just yet, so it’s nice to just{' '}
+      The good outcome here was building a working app and shipping it in under a week. Sometimes
+      government technology groups want to spend 12 months deciding that 10-year old tech is too
+      cutting-edge to use just yet, so it’s nice to just{' '}
       <a href="https://github.com/pcraig3/vacs" target="_blank">
         push some code
       </a>
