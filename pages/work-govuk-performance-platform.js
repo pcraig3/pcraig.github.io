@@ -22,22 +22,16 @@ const WorkPP = () => (
         Performance Platform
       </a>
       : the centralized publisher of metrics for all UK government services. With much of the team
-      focused on designing a new service, the Performance Platform itself (
-      <a
-        href="https://www.gov.uk/performance/site-activity-performance-platform/traffic-to-site"
-        target="_blank"
-      >
-        which serves thousands of people a day
-      </a>
-      ) was in need of some love.
+      focused on designing a new service, the Performance Platform itself (which served many
+      thousands of people a day) needed some attention.
     </p>
     <p>
-      Originally built as an avant-garde isomorphic{' '}
+      Originally built as an avant-garde ‘isomorphic’{' '}
       <a href="http://backbonejs.org/" target="_blank">
         Backbone
       </a>{' '}
-      app, I took the opportunity to sharpen my frontend skillz on some cutting-edge JavaScript.
-      Despite a healthy amount of grief along the way, I finally fixed the damn thing:
+      app, I took the opportunity to sharpen my frontend skills on some cutting-edge JavaScript.
+      Overcoming a healthy amount of grief along the way, I finally fixed the damn thing:
     </p>
     <ul>
       <li>I updated the node engine by several major versions</li>
@@ -54,8 +48,8 @@ const WorkPP = () => (
       </li>
     </ul>
     <p>
-      As the lead frontend developer on the Performance team, I worked alongside some great people,
-      I overcame some fairly unique challenges, and — ultimately — I renewed one of the Government
+      As lead frontend developer on the Performance team, I worked alongside some great people, I
+      overcame some fairly sticky challenges, and — ultimately — I refreshed one of the Government
       Digital Service’s flagship products.
     </p>
   </Post>

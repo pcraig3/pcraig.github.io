@@ -26,9 +26,10 @@ const WorkEC = () => (
         aria-label="archive.org link to event calendar instructions for clubs circa 2014"
       >
         asked very little of the clubs themselves
-      </a>
-      . The end result was, for a time, the most sophisticated event calendar on any Canadian
-      campus.
+      </a>{' '}
+      — essentially, events they created on their official club Facebook pages were populated in
+      real-time. The end result was, for a time, the most sophisticated event calendar on any
+      Canadian campus.
     </p>
     <p>This API-driven calendar:</p>
     <ul>

@@ -23,7 +23,7 @@ const WorkIC = () => (
       <a href="https://symfony.com/" target="_blank">
         Symfony
       </a>{' '}
-      PHP framework with some{' '}
+      PHP framework and{' '}
       <a href="https://github.com/inuitcss" target="_blank" aria-label="Inuit CSS framework">
         InuitCSS
       </a>{' '}

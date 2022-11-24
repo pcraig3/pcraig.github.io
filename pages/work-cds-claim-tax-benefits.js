@@ -9,10 +9,9 @@ const WorkCTB = () => (
     imgSrc={require('../public/img/ctb.png')}
     imgAlt="Screenshot of the Claim Tax Benefits prototype"
     linkText="Simple filing for quicker benefits"
-    href="https://claim-tax-benefits.herokuapp.com/start"
   >
     <p>
-      Between November 2018 and January 2020, I was Technical Lead on a{' '}
+      Between November 2018 and January 2020, I was Technical Lead on a moonshot{' '}
       <a href="https://digital.canada.ca/" target="_blank">
         Canadian Digital Service (CDS)
       </a>{' '}
@@ -29,8 +28,7 @@ const WorkCTB = () => (
       </a>
       . It was a big role, though the day-to-day depended on{' '}
       <a
-        href="https://digital.canada.ca/partnerships/"
-        title="The phase of the project: read about how the Canadian Digital Service works"
+        href="https://www.gov.uk/service-manual/agile-delivery#default-id-26a4ceda-heading-4"
         target="_blank"
       >
         the phase of the project
@@ -55,7 +53,7 @@ const WorkCTB = () => (
       continuously tested and deployed inside of CRA’s Azure cloud lab.
     </p>
     <p>
-      The technological challenge was to define a stack whose citizen-facing side could accommodate
+      The technical challenge was to define a stack whose citizen-facing side could accommodate
       quick changes on top of a mainframe system that absolutely could not. To resolve this tension,
       I designed a quick-to-iterate containerized JS frontend and a Java API backend that could
       translate our data into the format expected by CRA — an architecture that remained intact
@@ -80,7 +78,7 @@ const WorkCTB = () => (
         ensure citizens receive the benefits they need.”
       </p>
       <footer>
-        —<cite>Julie Payette, Governor General of Canada</cite>
+        —<cite>Julie Payette, (former) Governor General of Canada</cite>
       </footer>
     </blockquote>
     <p>
@@ -95,8 +93,8 @@ const WorkCTB = () => (
         documentation
       </a>{' '}
       and our{' '}
-      <a href="https://claim-tax-benefits.herokuapp.com" target="_blank">
-        click-through protoype
+      <a href="https://github.com/cds-snc/cra-claim-tax-benefits" target="_blank">
+        code repository
       </a>{' '}
       — laying an important foundation for whatever comes next.
     </p>
@@ -104,8 +102,14 @@ const WorkCTB = () => (
     <p>
       No biggie though, not everything works all of the time, and the CRA project involved
       coordination, responsibility, and areas to grow. Plus, ending the project freed me up to work
-      on the <Link href="/work-cds-covid-alert-portal">COVID Alert Portal</Link>: the hippest
-      government-provided cost-free solution this side of the Rideau river.
+      on the <Link href="/work-cds-covid-alert-portal">COVID Alert Portal</Link>: the hippest “
+      <a
+        href="https://ottawa.citynews.ca/local-news/ontario-working-to-expand-awareness-influence-downloads-of-covid-alert-app-2796954"
+        target="_blank"
+      >
+        made-in-Ontario
+      </a>
+      ” exposure notification app this side of the Rideau river.
     </p>
   </Post>
 )

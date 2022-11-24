@@ -49,10 +49,9 @@ const WorkCH = () => (
         target="_blank"
         title="search terms 'canada holidays' on bing"
       >
-        #4 on Bing dot com
-      </a>{' '}
-      (sometimes #2 <span aria-hidden="true">😝✌️</span>), so it might be coming soon to an Edge
-      browser near you.
+        #3 on Bing dot com
+      </a>
+      , so it might be coming soon to an Edge browser near you.
     </p>
     <p>
       If you have issues with the font rhythm, take it up with{' '}

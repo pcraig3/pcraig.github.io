@@ -17,7 +17,7 @@ const WorkRes = () => (
       <a href="https://digital.canada.ca/" target="_blank">
         Canadian Digital Service
       </a>
-      . The Rescheduler allowed future Canadians with prior obligations to rebook their citizenship
+      . The Rescheduler allowed future Canadians with prior obligations to rebook citizenship
       language tests, replacing an anxiety-riven informal process with a far more straightforward
       form submission. It was better for end users, and it was better for immigration officers.
     </p>
@@ -54,7 +54,8 @@ const WorkRes = () => (
       <a href="https://digital.canada.ca/our-team/" target="_blank">
         a world-class team
       </a>
-      , and for about a year it helped <strong>real people</strong> get on with their lives.
+      , and for the year of its existence it helped hundreds of <strong>real people</strong> get on
+      with their lives.
     </p>
   </Post>
 )
