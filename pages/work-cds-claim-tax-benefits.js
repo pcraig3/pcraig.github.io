@@ -6,7 +6,7 @@ const WorkCTB = () => (
     h1="Claim Tax Benefits"
     subheading="Simple filing for quicker benefits"
     title="Claim Tax Benefits — paul craig"
-    imgSrc={require('../img/ctb.png')}
+    imgSrc={require('../public/img/ctb.png')}
     imgAlt="Screenshot of the Claim Tax Benefits prototype"
     linkText="Simple filing for quicker benefits"
     href="https://claim-tax-benefits.herokuapp.com/start"

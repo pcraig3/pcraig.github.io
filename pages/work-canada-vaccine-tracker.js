@@ -6,7 +6,7 @@ const WorkCVT = () => (
     h1="canada-vaccine-tracker.ca"
     subheading="Graphing vaccines over time"
     title="canada-vaccine-tracker.ca — paul craig"
-    imgSrc={require('../img/vacs.png')}
+    imgSrc={require('../public/img/vacs.png')}
     imgAlt="Screenshot of canada-vaccine-tracker.ca"
   >
     <p>

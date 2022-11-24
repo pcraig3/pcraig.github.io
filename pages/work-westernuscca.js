@@ -5,7 +5,7 @@ const WorkUSC = () => (
     h1="westernusc.ca"
     subheading="Renewing the University Students’ Council website"
     title="westernusc.ca — paul craig"
-    imgSrc={require('../img/sg.png')}
+    imgSrc={require('../public/img/sg.png')}
     imgAlt="Screenshot of the former westernusc.ca"
   >
     <p>

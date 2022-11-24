@@ -5,7 +5,7 @@ const WorkCAP = () => (
     h1="COVID Alert Portal"
     subheading="Curbing COVID in Canada"
     title="COVID Alert Portal — paul craig"
-    imgSrc={require('../img/portal.png')}
+    imgSrc={require('../public/img/portal.png')}
     imgAlt="Screenshot of the COVID Alert Portal"
     linkText="Curbing COVID in Canada"
     href="https://healthcare-portal.herokuapp.com"

@@ -11,7 +11,7 @@ const WorkDM = () => (
     }
     subheading="Making it easier to buy better stuff"
     title="GOV.UK Digital Marketplace — paul craig"
-    imgSrc={require('../img/dm.png')}
+    imgSrc={require('../public/img/dm.png')}
     imgAlt="Screenshot of the Digital Marketplace"
     linkText="The Digital Marketplace"
     href="https://www.digitalmarketplace.service.gov.uk/"

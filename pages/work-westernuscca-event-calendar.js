@@ -5,7 +5,7 @@ const WorkEC = () => (
     h1="The Western USC Event Calendar"
     subheading="Building the best campus calendar in the country"
     title="The Western USC Event Calendar — paul craig"
-    imgSrc={require('../img/ec.png')}
+    imgSrc={require('../public/img/ec.png')}
     imgAlt="Screenshot of the former westernusc.ca event calendar"
   >
     <p>

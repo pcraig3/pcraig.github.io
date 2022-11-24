@@ -46,7 +46,7 @@ Post.propTypes = {
   h1: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   subheading: PropTypes.string.isRequired,
   title: PropTypes.string,
-  imgSrc: PropTypes.string.isRequired,
+  imgSrc: PropTypes.object.isRequired,
   imgAlt: PropTypes.string.isRequired,
   href: PropTypes.string,
   linkText: PropTypes.string,

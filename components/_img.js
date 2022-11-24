@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import { css } from '@emotion/react'
+import Image from 'next/image'
 import { colours, fontSizes, mq, spacing } from '../styles/utils'
 
 const _hoverImg = css`
@@ -94,12 +95,13 @@ const captionStyles = css`
 const Figure = ({ src, alt, hoverText }) => (
   <figure css={imgStyles}>
     <figcaption css={captionStyles}>{hoverText ? <div>{hoverText}</div> : null}</figcaption>
-    <img src={`${src}`} alt={alt} />
+    <Image src={src} alt={alt} />
+    {/* <img src={`${src}`} alt={alt} /> */}
   </figure>
 )
 
 Figure.propTypes = {
-  src: PropTypes.string.isRequired,
+  src: PropTypes.object.isRequired,
   alt: PropTypes.string.isRequired,
   hoverText: PropTypes.string,
 }

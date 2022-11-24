@@ -5,7 +5,7 @@ const WorkPCRAIG3 = () => (
     h1="pcraig3.ca"
     subheading="Building a well-padded trophy case"
     title="pcraig3.ca (deprecated) — paul craig"
-    imgSrc={require('../img/p2.png')}
+    imgSrc={require('../public/img/p2.png')}
     imgAlt="Screenshot of the former pcraig3.ca"
   >
     <p>
@@ -22,8 +22,9 @@ const WorkPCRAIG3 = () => (
       <a href="http://greaterthanorequalto.net" target="_blank">
         Alan Trotter
       </a>
-      , and <a href={require('../img/snowstorm-aftermath-london-on.jpg')}>London, Ontario</a>, the
-      idea was to see how much I could remove without confounding my (<em>very</em> occasional)
+      , and{' '}
+      <a href={require('..../public/img/snowstorm-aftermath-london-on.jpg')}>London, Ontario</a>,
+      the idea was to see how much I could remove without confounding my (<em>very</em> occasional)
       visitors. Although it never made it to the WordPress Theme Directory proper, you can always
       download a .zip from{' '}
       <a href="https://github.com/pcraig3/zweig-child" target="_blank">

@@ -11,7 +11,7 @@ const WorkPP = () => (
     }
     subheading="Performing accountability"
     title="GOV.UK Performance Platform — paul craig"
-    imgSrc={require('../img/pp.png')}
+    imgSrc={require('../public/img/pp.png')}
     imgAlt="Screenshot of the Performance Platform"
     linkText="The Performance Platform"
     href="https://www.gov.uk/performance"

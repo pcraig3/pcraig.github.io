@@ -1,5 +1,3 @@
-const withOptimizedImages = require('next-optimized-images')
-
 const paths = [
   '/',
   '/404',
@@ -36,15 +34,6 @@ const getPathExportMap = () => {
   return { ...normalPages }
 }
 
-module.exports = withOptimizedImages({
-  /* config for next-optimized-images */
-  imagesFolder: 'img',
-  optimizeImagesInDev: true,
-
-  /* config for general next.js */
+module.exports = {
   exportPathMap: getPathExportMap,
-  images: {
-    loader: 'custom',
-    disableStaticImages: true,
-  },
-})
+}

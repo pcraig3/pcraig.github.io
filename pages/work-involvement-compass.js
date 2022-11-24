@@ -5,7 +5,7 @@ const WorkIC = () => (
     h1="The Involvement Compass"
     subheading="Matching Western students to Western’s clubs"
     title="The Involvement Compass — paul craig"
-    imgSrc={require('../img/ic.png')}
+    imgSrc={require('../public/img/ic.png')}
     imgAlt="Screenshot of the former Involvement Compass"
   >
     <p>

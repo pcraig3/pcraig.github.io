@@ -5,7 +5,7 @@ const WorkSCLabs = () => (
     h1="Service Canada Labs"
     subheading="User testing for future Canada.ca services"
     title="Service Canada Labs — paul craig"
-    imgSrc={require('../img/labs.png')}
+    imgSrc={require('../public/img/labs.png')}
     imgAlt="Screenshot of the English Service Canada Labs home page"
     linkText="Home — Service Canada Labs"
     href="https://alpha.service.canada.ca/home"

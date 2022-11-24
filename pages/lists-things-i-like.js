@@ -55,7 +55,7 @@ const ListLike = () => (
         </a>
       </li>
       <li>
-        <a href={require('../img/nt.jpg')}>the National Theatre</a>
+        <a href={'/img/nt.jpg'}>the National Theatre</a>
       </li>
       <li>A hot cup of (Earl Grey) tea on a rainy day</li>
       <li>

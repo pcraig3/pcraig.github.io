@@ -5,7 +5,7 @@ const WorkRes = () => (
     h1="Reschedule a citizenship test"
     subheading="Helping future Canadians (yesterday)"
     title="CDS Citizenship Rescheduler — paul craig"
-    imgSrc={require('../img/ircc.png')}
+    imgSrc={require('../public/img/ircc.png')}
     imgAlt="Screenshot of the Citizenship Rescheduler"
   >
     <p>

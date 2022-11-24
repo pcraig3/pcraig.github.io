@@ -27,7 +27,7 @@ const ListDontLike = () => (
         emails
       </li>
       <li>
-        <a href={require('../img/kiosk.jpg')}>kiosks</a>
+        <a href={'/img/kiosk.jpg'}>kiosks</a>
       </li>
       <li>Food deserts</li>
       <li>Back-to-back-to-back meetings (no time to think!)</li>
