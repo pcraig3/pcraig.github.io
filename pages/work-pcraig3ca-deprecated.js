@@ -22,11 +22,10 @@ const WorkPCRAIG3 = () => (
       <a href="http://greaterthanorequalto.net" target="_blank">
         Alan Trotter
       </a>
-      , and{' '}
-      <a href={require('..../public/img/snowstorm-aftermath-london-on.jpg')}>London, Ontario</a>,
-      the idea was to see how much I could remove without confounding my (<em>very</em> occasional)
-      visitors. Although it never made it to the WordPress Theme Directory proper, you can always
-      download a .zip from{' '}
+      , and <a href="../public/img/snowstorm-aftermath-london-on.jpg">London, Ontario</a>, the idea
+      was to see how much I could remove without confounding my (<em>very</em> occasional) visitors.
+      Although it never made it to the WordPress Theme Directory proper, you can always download a
+      .zip from{' '}
       <a href="https://github.com/pcraig3/zweig-child" target="_blank">
         the GitHub repo
       </a>{' '}
