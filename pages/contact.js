@@ -17,36 +17,34 @@ const Contact = () => (
     <p>
       <span>Email</span>
       <span>
-        <Link href="mailto:paul@pcraig3.ca">
-          <a title="pls no spam">
-            paul
-            <wbr />
-            @pcraig3.ca
-          </a>
+        <Link href="mailto:paul@pcraig3.ca" title="pls no spam">
+          paul
+          <wbr />
+          @pcraig3.ca
         </Link>
       </span>
     </p>
     <p>
       <span>Twitter</span>
       <span>
-        <Link href="https://twitter.com/pcraig3">
-          <a title="pls retweet me">@pcraig3</a>
+        <Link href="https://twitter.com/pcraig3" title="pls retweet me">
+          @pcraig3
         </Link>
       </span>
     </p>
     <p>
       <span>Instagram</span>
       <span>
-        <Link href="https://www.instagram.com/paulgorica">
-          <a title="pls follow me">@paulgorica</a>
+        <Link href="https://www.instagram.com/paulgorica" title="pls follow me">
+          @paulgorica
         </Link>
       </span>
     </p>
     <p>
       <span>GitHub</span>
       <span>
-        <Link href="https://www.github.com/pcraig3">
-          <a title="pls ⭐ me">pcraig3</a>
+        <Link href="https://www.github.com/pcraig3" title="pls ⭐ me">
+          pcraig3
         </Link>
       </span>
     </p>
@@ -55,8 +53,8 @@ const Contact = () => (
         Facebook (if you <em>must</em>. 🤷)
       </span>
       <span>
-        <Link href="https://www.facebook.com/PaulMCraig">
-          <a title="pls be my friend">PaulMCraig</a>
+        <Link href="https://www.facebook.com/PaulMCraig" title="pls be my friend">
+          PaulMCraig
         </Link>
       </span>
     </p>

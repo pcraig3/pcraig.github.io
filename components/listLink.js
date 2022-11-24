@@ -51,10 +51,8 @@ const listLinkStyles = css`
 const ListLink = ({ h2, subheading, href }) => (
   <li css={listLinkStyles}>
     <Link href={href}>
-      <a>
-        <h2>{h2}</h2>
-        {subheading ? <p>{subheading}</p> : null}
-      </a>
+      <h2>{h2}</h2>
+      {subheading ? <p>{subheading}</p> : null}
     </Link>
   </li>
 )

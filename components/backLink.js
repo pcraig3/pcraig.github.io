@@ -4,9 +4,7 @@ import { pointLeftJustifiedLinks } from '../styles/utils'
 
 const BackLink = ({ href = '/' }) => (
   <div css={pointLeftJustifiedLinks}>
-    <Link href={href}>
-      <a>{href === '/' ? 'Start over' : `Back to ${href}`}</a>
-    </Link>
+    <Link href={href}>{href === '/' ? 'Start over' : `Back to ${href}`}</Link>
   </div>
 )
 

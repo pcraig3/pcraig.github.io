@@ -104,11 +104,8 @@ const WorkCTB = () => (
     <p>
       No biggie though, not everything works all of the time, and the CRA project involved
       coordination, responsibility, and areas to grow. Plus, ending the project freed me up to work
-      on the{' '}
-      <Link href="/work-cds-covid-alert-portal">
-        <a>COVID Alert Portal</a>
-      </Link>
-      : the hippest government-provided cost-free solution this side of the Rideau river.
+      on the <Link href="/work-cds-covid-alert-portal">COVID Alert Portal</Link>: the hippest
+      government-provided cost-free solution this side of the Rideau river.
     </p>
   </Post>
 )

@@ -13,16 +13,10 @@ const Index = () => (
     </h1>
     <ul>
       <li>
-        builds{' '}
-        <Link href="/work">
-          <a>websites</a>
-        </Link>
+        builds <Link href="/work">websites</Link>
       </li>
       <li>
-        makes{' '}
-        <Link href="/lists">
-          <a>lists</a>
-        </Link>
+        makes <Link href="/lists">lists</Link>
       </li>
       <li>
         chows{' '}

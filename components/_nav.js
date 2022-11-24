@@ -116,10 +116,8 @@ ToggleButton.propTypes = toggleButtonProps
 
 const NavLink = ({ path, pathname }) => (
   <li>
-    <Link href={`${path}`}>
-      <a {...(path === pathname ? { 'aria-current': 'page' } : {})}>
-        {path === '/' ? 'home' : path.split('/').pop()}
-      </a>
+    <Link href={`${path}`} {...(path === pathname ? { 'aria-current': 'page' } : {})}>
+      {path === '/' ? 'home' : path.split('/').pop()}
     </Link>
   </li>
 )

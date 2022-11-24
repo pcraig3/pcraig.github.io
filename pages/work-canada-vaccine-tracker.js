@@ -42,11 +42,9 @@ const WorkCVT = () => (
         COVID19Tracker.ca API
       </a>
       . It was my first time using graphs extensively since{' '}
-      <Link href="/work-govuk-performance-platform">
-        <a>the Performance Platform</a>
-      </Link>
-      , and it was fun thinking through how to build them with accessibility in mind. It was also
-      fun to get away from the{' '}
+      <Link href="/work-govuk-performance-platform">the Performance Platform</Link>, and it was fun
+      thinking through how to build them with accessibility in mind. It was also fun to get away
+      from the{' '}
       <a href="https://www.canada.ca/en/government/about/design-system.html" target="_blank">
         Canada.ca Design System
       </a>{' '}
