@@ -18,6 +18,7 @@ const paths = [
   '/work-cds-rescheduler',
   '/work-govuk-performance-platform',
   '/work-govuk-digital-marketplace',
+  '/work-groundhog-day',
   '/work-westernuscca',
   '/work-westernuscca-event-calendar',
   '/work-involvement-compass',

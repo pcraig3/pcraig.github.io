@@ -17,13 +17,13 @@ const ListPlaces = () => (
     <ul>
       <li>
         <p>
-          <span aria-hidden="true">000</span> Lisgar Street
+          <span aria-hidden="true">000 Redacted</span> Street
           <br />
           Ottawa
           <br />
           Canada
           <br />
-          K2P <span aria-hidden="true">000</span>
+          <span aria-hidden="true">000</span> <span aria-hidden="true">000</span>
         </p>
       </li>
 
@@ -199,7 +199,7 @@ const ListPlaces = () => (
           <br />
           Canada
           <br />
-          L5K <span aria-hidden="true">000</span>
+          <span aria-hidden="true">000</span> <span aria-hidden="true">000</span>
         </p>
       </li>
     </ul>

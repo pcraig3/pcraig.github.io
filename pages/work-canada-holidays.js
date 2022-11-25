@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Post from '../components/post'
 
 const WorkCH = () => (
@@ -25,7 +26,7 @@ const WorkCH = () => (
         a little Next.js app
       </a>{' '}
       as part of a technical exploration for{' '}
-      <a href="/work-cds-claim-tax-benefits">a project with the Canada Revenue Agency</a>.
+      <Link href="/work-cds-claim-tax-benefits">a project with the Canada Revenue Agency</Link>.
     </p>
     <p>
       Originally a Java API + React UI multi-container microservice thing, it made for a good
