@@ -29,6 +29,14 @@ const ListLike = () => (
       </li>
       <li>
         <a
+          href="https://www.google.com/maps/place/Figueira+da+Foz,+Portugal/@40.1558637,-8.8718543,13z/data=!3m1!4b1!4m5!3m4!1s0xd2237e03def9c41:0x878e2298dda9f4de!8m2!3d40.1521398!4d-8.857583"
+          target="_blank"
+        >
+          Figueira da Foz
+        </a>
+      </li>
+      <li>
+        <a
           href="https://www.goodreads.com/book/show/56034.The_French_Lieutenant_s_Woman"
           target="_blank"
         >
