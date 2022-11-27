@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Post from '../components/post'
 
-const WorkCH = () => (
+const WorkGHD = () => (
   <Post
     h1="GROUNDHOG-DAY.com"
     subheading="The leading Groundhog Day data source"
@@ -60,7 +60,7 @@ const WorkCH = () => (
         GROUNDHOG-DAY.com
       </a>{' '}
       is a cheerful and efficient webapp that does what it needs to with a good-natured wink. It’s
-      super fast, super simple, trivial to run day-to-day, deploys automatically, and it only needs
+      super fast, super simple, it’s trivial to run but scales to millions, and it only needs
       updating once a year.
     </p>
     <p>
@@ -77,4 +77,4 @@ const WorkCH = () => (
   </Post>
 )
 
-export default WorkCH
+export default WorkGHD

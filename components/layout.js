@@ -23,11 +23,9 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    // eslint-disable-next-line no-undef
     if (process.env.NODE_ENV === 'production') {
       if (window && !window.GA_INITIALIZED) {
-        // eslint-disable-next-line no-undef
-        initGA(process.env.RAZZLE_GA_ID)
+        initGA()
         window.GA_INITIALIZED = true
       }
       logPageView()
