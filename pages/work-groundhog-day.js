@@ -12,15 +12,8 @@ const WorkGHD = () => (
     href="https://groundhog-day.com"
   >
     <p>
-      Since summer 2022, I’ve been the hottest new Groundhog Day startup, cataloguing{' '}
-      <a href="https://groundhog-day.com" target="_blank">
-        a comprehensive list of prognosticators
-      </a>
-      , making transparent their shady divinations, and{' '}
-      <a href="https://groundhog-day.com/api" target="_blank">
-        opening up the data
-      </a>{' '}
-      for academics and investigative journalists everywhere.
+      Since summer 2022, GROUNDHOG-DAY.com has been the number one clean and breathable,
+      machine-readable, all-regional data source for North America’s Groundhog Day forecasts.
     </p>
     <p>
       Groundhog Day draws upon{' '}
@@ -31,8 +24,13 @@ const WorkGHD = () => (
         pre-Enlightenment era wisdom
       </a>{' '}
       in which fuzzy marmots are cross-examined by top-hatted mayors demanding weather reports. The
-      data collected by GROUNDHOG‑DAY.com is therefore a matter of public record and — at long last
-      — allows objective observers to separate True Groundhogs from ground-frauds.
+      data collected by GROUNDHOG‑DAY.com is therefore a matter of public record, granting academics
+      and journalists access to{' '}
+      <a href="https://groundhog-day.com/groundhogs" target="_blank">
+        a free and comprehensive list of prognosticators
+      </a>{' '}
+      and their shady divinations. Finally, evidence-based observers can separate the True
+      Groundhogs from the ground-frauds.
     </p>
     <p>
       Similar to <Link href="/work-canada-holidays">canada-holidays.ca</Link>, the technology used
@@ -40,28 +38,28 @@ const WorkGHD = () => (
       <a href="https://expressjs.com" target="_blank">
         express.js
       </a>{' '}
-      (serving a UI and an API) and{' '}
+      in the backend and{' '}
       <a href="https://mozilla.github.io/nunjucks/" target="_blank">
         nunjucks templates
-      </a>
-      . I’m using{' '}
-      <a href="https://cloud.google.com/run" target="_blank">
-        Google Cloud Run
       </a>{' '}
-      which is my favourite for standalone sites (costing pennies to run but scaling enormously when
-      needed). And there’s also{' '}
+      in front. There’s a dusting of frontend JavaScript for casual visitors to sort and filter
+      groundhogs or predictions for a given year. For real data heads,{' '}
+      <a href="https://groundhog-day.com/api" target="_blank">
+        the JSON API
+      </a>{' '}
+      (complete with{' '}
       <a href="https://app.swaggerhub.com/apis/pcraig3/groundhog-day-api/" target="_blank">
-        an OpenAPI schema
-      </a>{' '}
-      so you can build integrations to your enterprise data lake.
+        schema
+      </a>
+      ) serves up-to-the-minute prediction data with enterprise-scale reliability.
     </p>
     <p>
       <a href="https://groundhog-day.com" target="_blank">
         GROUNDHOG-DAY.com
       </a>{' '}
-      is a cheerful and efficient webapp that does what it needs to with a good-natured wink. It’s
-      super fast, super simple, it’s trivial to run but scales to millions, and it only needs
-      updating once a year.
+      is a cheerful and efficient webapp that does what it needs to without faffing around. It’s
+      super fast, it’s trivial to run, it scales like crazy, it’s extra-accessible, and it’s got the
+      cutest skip link of all time.
     </p>
     <p>
       Groundhog Day would look awful without my dynamite designer-collaborator{' '}

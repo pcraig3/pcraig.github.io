@@ -10,12 +10,8 @@ const WorkCVT = () => (
     imgAlt="Screenshot of canada-vaccine-tracker.ca"
   >
     <p>
-      In January 2021, I designed, built, and shipped{' '}
-      <a href="https://canada-vaccine-tracker.ca" target="_blank">
-        canada-vaccine-tracker.ca
-      </a>
-      , an auto-updating progress tracker that gave you the headline figure and then got out of the
-      way.
+      In January 2021, I designed, built, and shipped canada-vaccine-tracker.ca, an auto-updating
+      progress tracker that gave you the headline figure and then got out of the way.
     </p>
     <p>
       During January’s provincial lockdown, vaccines were a hot news item but still scarce in
