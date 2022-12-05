@@ -4,23 +4,24 @@ import { subheadStyles } from '../components/post'
 const CV = () => (
   <Layout title="CV of paul craig">
     <h1>Paul Craig</h1>
-    <p css={subheadStyles}>
-      <abbr title="Accessibility">a11y</abbr> or bust
-    </p>
+    <p css={subheadStyles}>ship or get off the pot</p>
 
     <h2>work</h2>
 
     <p>
       <strong>Tech Lead</strong>
       <br />
-      Canadian Digital Service — Ottawa
+      <a href="https://digital.canada.ca/" target="_blank">
+        Canadian Digital Service
+      </a>{' '}
+      — Ottawa
       <br />
       2018 <span aria-label="to">→</span> now
     </p>
     <ul>
       <li>Technical lead on agile development teams building user-centric digital services</li>
       <li>Organizes, implements, and reviews dev work</li>
-      <li>Identifies organisational barriers (and workarounds) in project discoveries</li>
+      <li>Runs project discoveries, identifies organisational barriers (and workarounds)</li>
       <li>
         Codes lots of ES6 (JS), Python <span aria-hidden="true">🐍</span>, React, CSS, HTML, and
         sometimes Java
@@ -29,37 +30,43 @@ const CV = () => (
         Pretty good experience setting up <abbr title="Continuous integration">CI</abbr>/
         <abbr title="Continuous deployment">CD</abbr> pipelines and cloud infrastructure
       </li>
-      <li>Also I am an export in building accessible interfaces</li>
+      <li>Also I am an expert in building accessible interfaces</li>
     </ul>
     <br />
 
     <p>
       <strong>Senior Technical Advisor</strong>
       <br />
-      Employment and Social Development Canada — Ottawa
+      <a href="https://www.canada.ca/en/employment-social-development.html">
+        Employment and Social Development Canada
+      </a>{' '}
+      — Ottawa
       <br />
       2021 (Feb <span aria-label="to">→</span> Aug)
     </p>
     <ul>
       <li>Head of software development for all in-house agile development teams</li>
       <li>Defined products, assigned developers to teams, and oversaw technical work</li>
-      <li>Picked tech stacks to solve problems we had, not problems we didn’t</li>
+      <li>Picked cloud-centric tech stacks to ship early and often</li>
       <li>Planned and reviewed dev work, upskilled junior developers</li>
       <li>Collaborated across disciplines and silos to keep moving forward</li>
-      <li>Presented work and explained decisions to stakeholders</li>
+      <li>Presented work and justified decisions to stakeholders</li>
     </ul>
     <br />
 
     <p>
       <strong>Developer</strong>
       <br />
-      Government Digital Service — London, UK
+      <a href="https://gds.blog.gov.uk/about/" target="_blank">
+        Government Digital Service
+      </a>{' '}
+      — London, UK
       <br />
       2015-18
     </p>
     <ul>
       <li>Built out a platform for public-sector procurement in Python 3</li>
-      <li>Took the lead on frontend dev work (ie, the pattern library)</li>
+      <li>Took the lead on frontend dev work (eg, the pattern library)</li>
       <li>Submitted all work as public, well-tested PRs; Reviewed others’ code</li>
       <li>Effective member of a focused, collaborative agile team</li>
     </ul>
@@ -125,15 +132,17 @@ const CV = () => (
 
     <h2>misc.</h2>
     <p>
-      I mean, I like big text designs, writing think pieces <span aria-hidden="true">🤔</span>, and
-      my yellow Nintendo Switch Lite. I don’t want to come off as brash or anything, but I can
-      probably have a higher score than u in{' '}
-      <a href="https://www.nintendo.com/games/detail/enter-the-gungeon-switch/" target="_blank">
-        Enter the Gungeon
-      </a>
-      .
+      I like big text designs, writing think pieces <span aria-hidden="true">🤔</span>, and my white
+      Kobo Libra. I don’t want to come off as brash or anything, but I bet I know more about the
+      Animorphs than you.
     </p>
-    <p>I also enjoy books (but who doesn’t?)</p>
+    <p>
+      I also enjoy{' '}
+      <a href="https://www.bonappetit.com/recipe/basically-spaghetti-pomodoro" target="_blank">
+        a good Pomodoro
+      </a>{' '}
+      (but who doesn’t?)
+    </p>
   </Layout>
 )
 
