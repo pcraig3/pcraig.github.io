@@ -1,20 +1,26 @@
 # to do
+
 - pa11y scan
 
 # done
 
+- ✅ print styles for the cv page
+- ✅ migrate to the new analytics
+- ✅ add favicon
 - ✅ page: 404 page
 - ✅ work
-    - ✅ canada vaccine tracker
-    - ✅ covid alert portal
-    - ✅ claim tacks benefits
-    - ✅ canada holidays 
-    - ✅ pcraig3
-    - ✅ westernusc
-    - ✅ event calendar
-    - ✅ involvement compass
-    - ✅ performance platform
-    - ✅ rescheduler
+  - ✅ groundhog day
+  - ✅ canada service labs
+  - ✅ canada vaccine tracker
+  - ✅ covid alert portal
+  - ✅ claim tacks benefits
+  - ✅ canada holidays
+  - ✅ pcraig3
+  - ✅ westernusc
+  - ✅ event calendar
+  - ✅ involvement compass
+  - ✅ performance platform
+  - ✅ rescheduler
 - ✅ skip link
 - ✅ see about google analytics
 - ✅ page: things i like

@@ -355,3 +355,39 @@ export const mainStyles = css`
 
   ${bisqueLinks};
 `
+
+export const printStyles = css`
+  @media print {
+    h1 {
+      margin-bottom: 15px;
+    }
+
+    .cv--details {
+      font-size: 80%;
+      margin-bottom: 100px;
+
+      p {
+        margin-bottom: 3px;
+      }
+    }
+
+    h2 {
+      font-size: 130%;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-bottom: 10px;
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 3px;
+    }
+  }
+`

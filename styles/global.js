@@ -4,6 +4,27 @@ import { colours, typograpyStyles } from './utils'
 export const globalStyles = (
   <Global
     styles={css`
+      @media screen {
+        .print-only {
+          display: none;
+        }
+      }
+
+      @media print {
+        html {
+          font-size: 100% !important;
+        }
+
+        #content {
+          max-width: none;
+        }
+
+        footer,
+        .screen-only {
+          display: none;
+        }
+      }
+
       html {
         font-family: 'Gothic A1', sans-serif;
         overflow-y: scroll;

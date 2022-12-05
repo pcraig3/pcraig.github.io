@@ -1,10 +1,23 @@
 import Layout from '../components/layout'
 import { subheadStyles } from '../components/post'
+import { printStyles } from '../styles/utils'
 
 const CV = () => (
-  <Layout title="CV of paul craig">
+  <Layout title="CV of paul craig" styles={printStyles}>
     <h1>Paul Craig</h1>
-    <p css={subheadStyles}>ship or get off the pot</p>
+    <p className="screen-only" css={subheadStyles}>
+      ship or get off the pot
+    </p>
+    <div className="print-only cv--details">
+      <p>Ottawa, Ontario</p>
+      <p>
+        <a href="mailto:paul@pcraig3.ca">paul@pcraig3.ca</a>
+      </p>
+      <p>647-667-5327</p>
+      <p>
+        <a href="https://pcraig3.ca">https://pcraig3.ca</a>
+      </p>
+    </div>
 
     <h2>work</h2>
 
@@ -130,19 +143,21 @@ const CV = () => (
     </ul>
     <br />
 
-    <h2>misc.</h2>
-    <p>
-      I like big text designs, writing think pieces <span aria-hidden="true">🤔</span>, and my white
-      Kobo Libra. I don’t want to come off as brash or anything, but I bet I know more about the
-      Animorphs than you.
-    </p>
-    <p>
-      I also enjoy{' '}
-      <a href="https://www.bonappetit.com/recipe/basically-spaghetti-pomodoro" target="_blank">
-        a good Pomodoro
-      </a>{' '}
-      (but who doesn’t?)
-    </p>
+    <div className="screen-only">
+      <h2>misc.</h2>
+      <p>
+        I like big text designs, writing think pieces <span aria-hidden="true">🤔</span>, and my
+        white Kobo Libra. I don’t want to come off as brash or anything, but I bet I know more about
+        the Animorphs than you.
+      </p>
+      <p>
+        I also enjoy{' '}
+        <a href="https://www.bonappetit.com/recipe/basically-spaghetti-pomodoro" target="_blank">
+          a good Pomodoro
+        </a>{' '}
+        (but who doesn’t?)
+      </p>
+    </div>
   </Layout>
 )
 
