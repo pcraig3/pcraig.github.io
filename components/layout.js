@@ -3,11 +3,12 @@ import PropTypes from 'prop-types'
 import Head from 'next/head'
 import { withRouter } from 'next/router'
 import { css } from '@emotion/react'
+import ReactGA from 'react-ga4'
+
 import { layoutStyles, footerStyles, mainStyles } from '../styles/utils'
 import Logo from './_logo'
 import Nav from './_nav'
 import SkipLink from './skipLink'
-import { initGA, logPageView } from '../utils/analytics'
 
 class Layout extends Component {
   constructor(props) {
@@ -25,10 +26,9 @@ class Layout extends Component {
   componentDidMount() {
     if (process.env.NODE_ENV === 'production') {
       if (window && !window.GA_INITIALIZED) {
-        initGA()
+        ReactGA.initialize('G-BP5BJ7E60B')
         window.GA_INITIALIZED = true
       }
-      logPageView()
     }
   }
 
