@@ -7,6 +7,11 @@ const Work = () => (
 
     <ul>
       <ListLink
+        h2="TaxGPT.ca"
+        subheading="Helping Canadians find free tax-filing options"
+        href="/work-taxgpt"
+      />
+      <ListLink
         h2="GROUNDHOG-DAY.com"
         subheading="The leading Groundhog Day data source"
         href="/work-groundhog-day"

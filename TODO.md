@@ -4,6 +4,8 @@
 
 # done
 
+- ✅ work: taxgpt
+- ✅ migrate to breaking-change version of react-ga4
 - ✅ print styles for the cv page
 - ✅ migrate to the new analytics
 - ✅ add favicon
