@@ -37,17 +37,24 @@ const WorkGHD = () => (
         Typebot
       </a>
       . I spent some time testing out ChatGPT, eventually finding it wasn’t accurate enough for a
-      full conversation, but it <em>is</em> pretty good at providing general advice. After receiving
-      relevant recommendations, users can ask a question to TaxGPT which returns an answer via{' '}
+      full conversation, but it <em>is</em> pretty good at providing general advice. Users can ask
+      tax-related questions to TaxGPT which returns an answer via{' '}
       <a href="https://platform.openai.com/docs/api-reference" target="_blank">
         the ChatGPT API
       </a>
       .
     </p>
     <p>
-      TaxGPT is intended to help Canadians throughout the 2023 tax filing season (February 20 — May
-      1, 2023), so I am currently still iterating and gathering feedback. Once tax season ends, I
-      will update this page with outcomes.
+      TaxGPT answered over 10,000 questions during 2023’s tax-filing season (February 20 — May 1,
+      2023), and even made it into the National Post: “
+      <a
+        href="https://nationalpost.com/news/canada/ottawa-developer-designs-chatbot-to-help-canadians-file-taxes"
+        target="_blank"
+      >
+        Ottawa developer designs chatbot to help Canadians file their taxes for free
+      </a>
+      ”. Overall, TaxGPT generated plenty of interest, unexpected publicity, and furthered Canada’s
+      conversation about simpler tax filing.
     </p>
     <p>
       The cute maple leaf is a{' '}
