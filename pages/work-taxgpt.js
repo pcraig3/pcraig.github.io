@@ -11,8 +11,8 @@ const WorkGHD = () => (
     href="https://taxgpt.ca"
   >
     <p>
-      In March 2023, I released TaxGPT: a friendly AI-lite chatbot to give Canadians advice on how
-      to file their taxes for free.
+      In March 2023, I released TaxGPT: a friendly AI-infused chatbot to give Canadians advice on
+      how to file their taxes for free.
     </p>
     <p>
       TaxGPT draws upon{' '}

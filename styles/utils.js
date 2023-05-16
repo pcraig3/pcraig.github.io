@@ -364,7 +364,7 @@ export const printStyles = css`
 
     .cv--details {
       font-size: 80%;
-      margin-bottom: 100px;
+      margin-bottom: 120px;
 
       p {
         margin-bottom: 3px;

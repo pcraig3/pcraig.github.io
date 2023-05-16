@@ -65,6 +65,14 @@ export const globalStyles = (
         }
       }
 
+      .display--none {
+        display: none;
+      }
+
+      .page-break-before {
+        page-break-before: always;
+      }
+
       ${typograpyStyles};
     `}
   />
