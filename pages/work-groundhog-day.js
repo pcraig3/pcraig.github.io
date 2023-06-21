@@ -21,9 +21,9 @@ const WorkGHD = () => (
         href="https://groundhog-day.com/history-of-groundhog-day#candlemas-the-groundhog-day-forerunner"
         target="_blank"
       >
-        pre-Enlightenment era wisdom
+        pre-Enlightenment-era wisdom
       </a>{' '}
-      in which fuzzy marmots are cross-examined by top-hatted mayors demanding weather reports. The
+      in which fuzzy marmots are cross-examined by top-hatted mayors requesting weather reports. The
       data collected by GROUNDHOG‑DAY.com is therefore a matter of public record, granting academics
       and journalists access to{' '}
       <a href="https://groundhog-day.com/groundhogs" target="_blank">

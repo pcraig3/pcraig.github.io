@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { css } from '@emotion/react'
 import { spacing, pointLeftJustifiedLinks } from '../styles/utils'
 import Layout from '../components/layout'
+import { Email } from 'react-obfuscate-email'
 
 const mainStyles = css`
   span {
@@ -10,6 +11,10 @@ const mainStyles = css`
   }
 
   ${pointLeftJustifiedLinks};
+
+  a > span.roe {
+    display: inline;
+  }
 `
 const Contact = () => (
   <Layout title="contact paul craig" styles={mainStyles}>
@@ -17,11 +22,7 @@ const Contact = () => (
     <p>
       <span>Email</span>
       <span>
-        <Link href="mailto:paul@pcraig3.ca" title="pls no spam">
-          paul
-          <wbr />
-          @pcraig3.ca
-        </Link>
+        <Email email="paul@pcraig.ca" subject="Hi Paul Craig!" />
       </span>
     </p>
     <p>
