@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Index = () => (
   <Layout
     title="paul craig, web developer"
-    metaDescription="hi, I'm Paul. I build websites and eat aux casse-croûtes. get in touch: paul@pcraig3.ca"
+    metaDescription="hi, I'm Paul. I build websites and eat aux casse-croûtes. get in touch: paul@pcraig.ca"
   >
     <h1>
       Paul Craig<span css={visuallyhidden}>: web developer</span>

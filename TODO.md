@@ -4,6 +4,8 @@
 
 # done
 
+- ✅ change over github repo also
+- ✅ change over to pcraig.ca, not pcraig3.ca
 - ✅ work: taxgpt
 - ✅ migrate to breaking-change version of react-ga4
 - ✅ print styles for the cv page

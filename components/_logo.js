@@ -65,8 +65,8 @@ const logoStyles = css`
 `
 const Logo = () => (
   <div css={logoStyles}>
-    <Link href="/" aria-label="pcraig3.ca home page">
-      <span>pcraig3</span>
+    <Link href="/" aria-label="pcraig.ca home page">
+      <span>pcraig.ca</span>
     </Link>
   </div>
 )

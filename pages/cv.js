@@ -13,11 +13,11 @@ const CV = () => (
     <div className="print-only cv--details">
       <p>Ottawa, Ontario</p>
       <p>
-        <a href="mailto:paul@pcraig3.ca">paul@pcraig3.ca</a>
+        <a href="mailto:paul@pcraig.ca">paul@pcraig.ca</a>
       </p>
       <p>647-667-5327</p>
       <p>
-        <a href="https://pcraig3.ca/work">https://pcraig3.ca/work</a>
+        <a href="https://pcraig.ca/work">https://pcraig.ca/work</a>
       </p>
     </div>
 
@@ -145,7 +145,7 @@ const CV = () => (
 
     <p>
       <strong>
-        <a href="https://pcraig3.ca/work-taxgpt">TaxGPT.ca</a>
+        <a href="https://pcraig.ca/work-taxgpt">TaxGPT.ca</a>
       </strong>
       <br />
       AI chatbot for Canadian tax filing. Answered 10,000+ questions and was featured in{' '}
@@ -156,7 +156,7 @@ const CV = () => (
     </p>
     <p>
       <strong>
-        <a href="https://pcraig3.ca/work-groundhog-day">GROUNDHOG-DAY.com</a>
+        <a href="https://pcraig.ca/work-groundhog-day">GROUNDHOG-DAY.com</a>
       </strong>
       <br />
       The leading Groundhog Day data source, with JSON API and interactive map. Made the top 10 on{' '}
@@ -164,7 +164,7 @@ const CV = () => (
     </p>
     <p>
       <strong>
-        <a href="https://pcraig3.ca/work-canada-holidays">Canada-holidays.ca</a>
+        <a href="https://pcraig.ca/work-canada-holidays">Canada-holidays.ca</a>
       </strong>
       <br />
       The cleanest-designed, SEO-optimised-est source of Canadian statutory holidays. Over 1 million

@@ -46,7 +46,7 @@ const WorkCVT = () => (
       </a>{' '}
       and{' '}
       <a href="https://fonts.google.com/specimen/Gothic+A1" target="_blank">
-        the pcraig3.ca design language
+        the pcraig.ca design language
       </a>{' '}
       for a few weeks (although arguably it’s a dialect).
     </p>

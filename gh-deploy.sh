@@ -12,10 +12,10 @@ npm run be # build and export static html files
 
 echo "-- Creating a local README file"
 echo "This branch contains only the static HTML export files." > ./out/README.md
-echo "You probably want to check out [the dev branch](https://github.com/pcraig3/pcraig3.github.io/tree/dev) instead." >> ./out/README.md
+echo "You probably want to check out [the dev branch](https://github.com/pcraig3/pcraig.github.io/tree/dev) instead." >> ./out/README.md
 
 echo "-- Creating a CNAME file so my custom domain still works"
-echo "pcraig3.ca" > ./out/CNAME
+echo "pcraig.ca" > ./out/CNAME
 
 echo "-- Creating root-level .nojekyll file so that files in underscore dirs aren't ignored"
 echo "no!" > ./out/.nojekyll
@@ -39,4 +39,4 @@ git reset --hard HEAD~1 #
 echo "-- Hooray! New site should be up now and local side-effects have been undone."
 
 
-# https://github.com/pcraig3/pcraig3.github.io/tree/dev
+# https://github.com/pcraig3/pcraig.github.io/tree/dev
