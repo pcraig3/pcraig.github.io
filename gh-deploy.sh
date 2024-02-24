@@ -8,7 +8,7 @@ then
 fi
 
 echo "-- Build the pages and export static HTML files"
-npm run be # build and export static html files
+npm run build # build and export static html files
 
 echo "-- Creating a local README file"
 echo "This branch contains only the static HTML export files." > ./out/README.md

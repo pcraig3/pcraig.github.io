@@ -58,7 +58,7 @@ const ListLike = () => (
       </li>
       <li>Techno shows</li>
       <li>
-        <a href="https://www.youtube.com/watch?v=sMXjtvMAFlI" target="_blank">
+        <a href="https://www.youtube.com/watch?v=EdwzQPGzPSo" target="_blank">
           the Batman Beyond intro
         </a>
       </li>
@@ -70,7 +70,7 @@ const ListLike = () => (
         <a href="https://www.imdb.com/title/tt1526318" target="_blank">
           Borgen
         </a>{' '}
-        (mere, tak!)
+        (even the new season!)
       </li>
     </ul>
 

@@ -16,7 +16,7 @@ const Index = () => (
         builds <Link href="/work">websites</Link>
       </li>
       <li>
-        makes <Link href="/lists">lists</Link>
+        has <Link href="/preferences">preferences</Link>
       </li>
       <li>
         chows{' '}

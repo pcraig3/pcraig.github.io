@@ -37,6 +37,7 @@ const getPathExportMap = () => {
 }
 
 module.exports = {
+  output: 'export',
   exportPathMap: getPathExportMap,
   images: {
     unoptimized: true,
