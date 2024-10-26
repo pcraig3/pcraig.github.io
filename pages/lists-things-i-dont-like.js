@@ -39,7 +39,7 @@ const ListDontLike = () => (
         Biting February wind <span aria-hidden="true">🌬️</span>
       </li>
     </ul>
-    <BackLink href="/lists" />
+    <BackLink href="/preferences" />
   </Layout>
 )
 

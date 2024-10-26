@@ -14,11 +14,6 @@ const ListLike = () => (
 
     <ul>
       <li>falafel wrap chili sauce garlic sauce</li>
-      <li>
-        <a href="https://instagram.com/rhijk" target="_blank">
-          @rhijk
-        </a>
-      </li>
       <li>Americanos</li>
       <li>Feminism</li>
       <li>APIs</li>
@@ -74,7 +69,7 @@ const ListLike = () => (
       </li>
     </ul>
 
-    <BackLink href="/lists" />
+    <BackLink href="/preferences" />
   </Layout>
 )
 
