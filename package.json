@@ -1,6 +1,6 @@
 {
   "name": "pcraig-dot-CA",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "portfolio site (reboot) for paul craig",
   "main": "server.js",
   "repository": {

@@ -8,7 +8,7 @@ const WorkCH = () => (
     title="canada-holidays.ca — paul craig"
     imgSrc={require('../public/img/hols.png')}
     imgAlt="Screenshot of canada-holidays.ca"
-    linkText="Canadian statutory holidays in 2021"
+    linkText="See upcoming Canadian statutory holidays"
     href="https://canada-holidays.ca/"
   >
     <p>
