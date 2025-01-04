@@ -14,7 +14,15 @@ const ListLike = () => (
 
     <ul>
       <li>falafel wrap chili sauce garlic sauce</li>
+      <li>
+        <a href="/work-groundhog-day">groundhogs</a>
+      </li>
       <li>Americanos</li>
+      <li>
+        <a href="https://instagram.com/rhijk" target="_blank">
+          @rhijk
+        </a>
+      </li>
       <li>Feminism</li>
       <li>APIs</li>
       <li>
@@ -28,6 +36,10 @@ const ListLike = () => (
           target="_blank"
         >
           Figueira da Foz
+        </a>{' '}
+        &{' '}
+        <a href="https://www.google.com/maps/place/9400-226+Porto+Santo,+Portugal/@33.0499991,-16.3602997,15z/data=!3m1!4b1!4m6!3m5!1s0xc5fdd4da55b2bb3:0x4507b636d9442cb4!8m2!3d33.05!4d-16.35!16s%2Fg%2F122n06yv?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
+          Porto Santo
         </a>
       </li>
       <li>
@@ -54,7 +66,7 @@ const ListLike = () => (
       <li>Techno shows</li>
       <li>
         <a href="https://www.youtube.com/watch?v=EdwzQPGzPSo" target="_blank">
-          the Batman Beyond intro
+          the Batman Beyond intro music
         </a>
       </li>
       <li>
