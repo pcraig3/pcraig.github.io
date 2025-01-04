@@ -13,7 +13,7 @@ const WorkGHD = () => (
   >
     <p>
       Since summer 2022, GROUNDHOG-DAY.com has been the number one clean and breathable,
-      machine-readable, all-regional data source for North America’s Groundhog Day forecasts.
+      machine-readable, all-regional data source for official Groundhog Day forecasts.
     </p>
     <p>
       Groundhog Day draws upon{' '}
@@ -42,8 +42,12 @@ const WorkGHD = () => (
       <a href="https://mozilla.github.io/nunjucks/" target="_blank">
         nunjucks templates
       </a>{' '}
-      in front. There’s a dusting of frontend JavaScript for casual visitors to sort and filter
-      groundhogs or predictions for a given year. For real data heads,{' '}
+      in front. Visitors can sort and filter groundhogs or predictions for a given year, not to
+      mention explore the world’s only{' '}
+      <a href="https://groundhog-day.com/map" target="_blank">
+        GROUNDHOG MAP
+      </a>
+      ! For real data heads,{' '}
       <a href="https://groundhog-day.com/api" target="_blank">
         the JSON API
       </a>{' '}
@@ -59,7 +63,14 @@ const WorkGHD = () => (
       </a>{' '}
       is a cheerful and efficient webapp that does what it needs to without faffing around. It’s
       super fast, it’s trivial to run, it scales like crazy, it’s extra-accessible, and it’s got the
-      cutest skip link of all time.
+      cutest skip link of all time. It also gets me{' '}
+      <a
+        href="https://omny.fm/shows/cjad-800/an-awesome-resource-for-groundhog-day"
+        target="_blank"
+      >
+        radio interviews
+      </a>{' '}
+      from time to time.
     </p>
     <p>
       Groundhog Day would look awful without my dynamite designer-collaborator{' '}
@@ -67,8 +78,8 @@ const WorkGHD = () => (
         Tyler Benning
       </a>
       , and would never have existed at all without my cross-quarter girlfriend,{' '}
-      <a href="https://www.instagram.com/rhijk/?hl=en" target="_blank">
-        Rhianna Kidd
+      <a href="https://rhianna.ca" target="_blank">
+        Rhianna Jane Kidd
       </a>
       .
     </p>

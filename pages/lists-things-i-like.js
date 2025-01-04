@@ -19,8 +19,8 @@ const ListLike = () => (
       </li>
       <li>Americanos</li>
       <li>
-        <a href="https://instagram.com/rhijk" target="_blank">
-          @rhijk
+        <a href="https://rhianna.ca" target="_blank">
+          rhianna (dot ca)
         </a>
       </li>
       <li>Feminism</li>
