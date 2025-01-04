@@ -3,17 +3,14 @@ import Post from '../components/post'
 const WorkGHD = () => (
   <Post
     h1="TaxGPT.ca"
-    subheading="Helping Canadians find free tax-filing options"
+    subheading="Canada’s friendly AI tax chatbot"
     title="TaxGPT.ca — paul craig"
     imgSrc={require('../public/img/taxgpt.png')}
     imgAlt="Screenshot of taxgpt.ca"
     linkText="TaxGPT.ca"
     href="https://taxgpt.ca"
   >
-    <p>
-      In March 2023, I released TaxGPT: a friendly AI-infused chatbot to give Canadians advice on
-      how to file their taxes for free.
-    </p>
+    <p>In March 2023, I released TaxGPT: a free and friendly AI tax chatbot for Canada.</p>
     <p>
       TaxGPT draws upon{' '}
       <a
@@ -21,40 +18,54 @@ const WorkGHD = () => (
         target="_blank"
       >
         existing government research
-      </a>
-      , which found that people often lack confidence to file on their own: perceiving the process
-      as overly complex, with a high chance of facing financial or legal penalties if making a
-      mistake. TaxGPT introduces Canadians to taxes in an approachable conversational format, using
-      plain language and affirming statements to recommend relevant methods to file taxes for free.
+      </a>{' '}
+      which found that people often lack confidence to file on their own: perceiving the process as
+      overly complex, with a high chance of facing financial or legal penalties if making a mistake.
+      TaxGPT introduces Canadians to taxes in an approachable conversational format, using plain
+      language and publicly-available information to return tax-related answers.
     </p>
     <p>
       The site itself is built in{' '}
       <a href="https://nextjs.org" target="_blank">
         Next.js
       </a>
-      , and the “chat” part of it is based on a script that I wrote and put together with{' '}
-      <a href="https://typebot.io" target="_blank">
-        Typebot
+      , the API uses{' '}
+      <a href="https://expressjs.com/" target="_blank">
+        express.js
       </a>
-      . I spent some time testing out ChatGPT, eventually finding it wasn’t accurate enough for a
-      full conversation, but it <em>is</em> pretty good at providing general advice. Users can ask
-      tax-related questions to TaxGPT which returns an answer via{' '}
-      <a href="https://platform.openai.com/docs/api-reference" target="_blank">
-        the ChatGPT API
+      , and the admin backend uses{' '}
+      <a href="https://www.djangoproject.com/" target="_blank">
+        Django
       </a>
       .
     </p>
+    <p>Here’s how TaxGPT works:</p>
+    <ol>
+      <li>Someone asks a question</li>
+      <li>
+        TaxGPT searches for relevant information in its knowledge base (a curated list of{' '}
+        <a href="https://www.canada.ca/en/revenue-agency.html" target="_blank">
+          CRA
+        </a>{' '}
+        public information)
+      </li>
+      <li>TaxGPT reads that information and uses it to return an answer</li>
+      <li>TaxGPT also returns links to the CRA pages it thinks are most relevant</li>
+    </ol>
     <p>
-      TaxGPT answered over 10,000 questions during 2023’s tax-filing season (February 20 — May 1,
-      2023), and even made it into the National Post: “
+      <strong>TaxGPT has answered over 30,000 questions</strong> from 2023 to present and made it
+      into the National Post: “
       <a
         href="https://nationalpost.com/news/canada/ottawa-developer-designs-chatbot-to-help-canadians-file-taxes"
         target="_blank"
       >
         Ottawa developer designs chatbot to help Canadians file their taxes for free
       </a>
-      ”. Overall, TaxGPT generated plenty of interest, unexpected publicity, and furthered Canada’s
-      conversation about simpler tax filing.
+      ”.
+    </p>
+    <p>
+      Overall, TaxGPT has generated plenty of interest, and furthered Canada’s conversation about
+      simpler tax filing, and continues to help Canadians every day!
     </p>
     <p>
       The cute maple leaf is a{' '}
